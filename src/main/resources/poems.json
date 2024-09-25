@@ -1,0 +1,32 @@
+[
+  {
+    "type": "HAIKU",
+    "title": "The Old Pond",
+    "poem": "An old silent pond\nA frog jumps into the pond—\nSplash! Silence again.",
+    "author": "Matsuo Basho"
+  },
+  {
+    "type": "LIMERICK",
+    "title": "The Man from Peru",
+    "poem": "There once was a man from Peru\nWho dreamed he was eating his shoe.",
+    "author": "Anonymous"
+  },
+  {
+    "type": "SENRYU",
+    "title": "Office Escape",
+    "poem": "Distant laughter fades,\nWork piles high on the desk now—\nA moment, just mine.",
+    "author": "Anonymous"
+  },
+  {
+    "type": "TANKA",
+    "title": "Morning Bloom",
+    "poem": "A lonely flower\nBlooms in the still morning air—\nAll my thoughts of you",
+    "author": "Anonymous"
+  },
+  {
+    "type": "SONNET",
+    "title": "Sonnet 18",
+    "poem": "Shall I compare thee to a summer's day?\nThou art more lovely and more temperate:",
+    "author": "William Shakespeare"
+  }
+]
