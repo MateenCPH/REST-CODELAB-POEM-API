@@ -1,0 +1,17 @@
+
+### GET request for All poems
+GET http://localhost:7000/api/poem
+
+### GET request specific dog with ID
+GET http://localhost:7000/api/poem/1
+
+### POST for creating a dog
+POST http://localhost:700/api/dogs/dog
+Content-Type: application/json
+
+### UPDATE a dog
+PUT http://localhost:7000/api/dogs/1
+
+### DELETE a dog
+DELETE http://localhost:7000/api/dogs/3
+

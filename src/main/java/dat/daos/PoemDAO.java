@@ -1,17 +1,17 @@
 package dat.daos;
 
-import dat.entities.Person;
+import dat.entities.Poem;
 import dat.exceptions.JpaException;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.*;
+import jakarta.persistence.TypedQuery;
 
 import java.util.Set;
 
-public class PersonDAO implements IDAO<Person> {
+public class PoemDAO implements IDAO<Poem> {
     EntityManagerFactory emf;
 
-    public PersonDAO(EntityManagerFactory emf) {
+    public PoemDAO(EntityManagerFactory emf) {
         this.emf = emf;
     }
 
@@ -29,7 +29,7 @@ public class PersonDAO implements IDAO<Person> {
 
 
     @Override
-    public Person update(Person person) {
+    public Poem update(Poem poem) {
         return null;
     }
 
