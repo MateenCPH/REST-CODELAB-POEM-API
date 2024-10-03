@@ -15,6 +15,10 @@ public class PoemController {
     private final EntityManagerFactory emf = HibernateConfig.getEntityManagerFactory("poems");
     PoemDAO poemDAO = new PoemDAO(emf);
 
+    public PoemController(PoemDAO poemDAO) {
+        this.poemDAO = poemDAO;
+    }
+
     public void addPoems(Context ctx){
         ArrayList<PoemDTO> poemDTOs = PoemService.getPoems();
         for (PoemDTO poemDTO : poemDTOs) {

@@ -1,23 +1,22 @@
-### GET request to example server
-GET https://examples.http-client.intellij.net/get
-    ?generated-in=IntelliJ IDEA
-
-###
 // Get all poems
-GET http://localhost:7000/api/poems
+GET {{URL}}/poems
 
 ###
 // Get 1 poem by ID
-GET http://localhost:7000/api/poem/1
+GET {{URL}}/poems/1
 
 ###
 // Post poem
-POST http://localhost:7000/api/poem
+POST {{URL}}/poems
 
 ###
 //Update poem
-PUT http://localhost:7000/api/poem/2
+PUT {{URL}}/poems/2
 ###
 
 //Delete poem
-DELETE http://localhost:7000/api/poem/3
+DELETE {{URL}}/poems/3
+
+###
+//Populate the database with poems
+POST {{URL}}/poems/populateDatabase
