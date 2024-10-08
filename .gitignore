@@ -12,6 +12,9 @@
 .idea/**/dictionaries
 .idea/**/shelf
 
+# JWT Auth secret key - should not go on Github!!!
+config.properties
+
 # AWS User-specific
 .idea/**/aws.xml
 
