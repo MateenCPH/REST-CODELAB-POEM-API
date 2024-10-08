@@ -16,7 +16,6 @@ import io.javalin.Javalin;
             ApplicationConfig.startServer(7070, emf);
         }
 
-
 //    public static void main(String[] args) {
 //        EntityManagerFactory emf = HibernateConfig.getEntityManagerFactory("poems");
 //        PoemDTO poemDTO = new PoemDTO();
