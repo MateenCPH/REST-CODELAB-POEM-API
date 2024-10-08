@@ -20,9 +20,4 @@ class PoemRoutesTest {
     void testFivePlusFive() {
         assertEquals(10, 5 + 5);
     }
-
-    @Test
-    void testThatFails() {
-        assertEquals(10, 5 + 5);
-    }
 }
